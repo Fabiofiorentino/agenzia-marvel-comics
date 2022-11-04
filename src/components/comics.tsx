@@ -95,7 +95,6 @@ const Comics: React.FC = () => {
           </CardList>
           <CardCheckout>
             <h2>Comics List</h2>
-          {checkout.id !== '' && (
             <div>
               {checkout.map((check) => (
                 <div className="checkout">
@@ -104,7 +103,6 @@ const Comics: React.FC = () => {
                 </div>
               ))}
             </div>
-          )}
           </CardCheckout>
         </Container>
     )
